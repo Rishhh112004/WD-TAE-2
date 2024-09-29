@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Special Dishes</title>
+    <style>
+        body {
+            font-family: "Inconsolata", sans-serif;
+            background-color: #f6f2e9;
+            color: #161616;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-top: 30px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            max-width: 600px;
+            margin: 20px auto;
+        }
+
+        ul li {
+            background-color: #f0f0f0;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            font-size: 18px;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+        }
+
+        /* ul li::before {
+            content: "🍽️";
+            margin-right: 15px;
+            font-size: 24px;
+        } */
+
+        ul li:hover {
+            background-color: #ecf0f1;
+            transition: background-color 0.3s ease;
+        }
+
+        .container {
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color: #3498db;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .button:hover {
+            background-color: #18191a;
+            transition: background-color 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Special Dishes of the Cafe</h1>
+        <ul>
+            <li><img src="cafe latte.jpg" alt="1." width="50px">Cafe Latte</li>
+            <li><img src="blueberry latte.jpg" alt="2." width="50px">Blueberry Latte</li>
+            <li><img src="chicory coffee.jpg" alt="3." width="55px">Chicory Coffee</li>
+            <li><img src="vegan brownies.jpg" alt="4." width="30px">Vegan Brownie</li>
+            <li><img src="Iced Matcha Latte.jpg" alt="5." width="30px">Iced Matcha Green Tea Latte</li>
+        </ul>
+        <a href="index.html" class="button">Go Back to Home</a>
+    </div>
+</body>
+</html>
+
